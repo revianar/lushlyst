@@ -6,7 +6,7 @@ Lushlyst is a production-grade chemical risk evaluation platform that combines d
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE] file for details.
+This project is licensed under the MIT License.
 
 ## Tech Stack
 
