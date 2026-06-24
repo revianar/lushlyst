@@ -1,0 +1,22 @@
+[project]
+name = "lushlyst"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "asyncpg==0.31.0",
+    "httpx==0.28.1",
+    "pydantic[email]==2.13.4",
+    "pydantic-settings==2.6.0",
+    "SQLAlchemy==2.0.36",
+    "tenacity==9.1.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.4.1",
+    "pytest-asyncio==0.25.2",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+testpaths = ["tests"]
